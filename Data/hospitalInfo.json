@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Opening Hours",
+        "description": "Open 9.00 am to 5.00pm everyday",
+        "icon": "https://i.ibb.co/LvPyLkC/clock.png",
+        "bgClass": "bg-gradient"
+    },
+    {
+        "name": "Our Locations",
+        "description": "Brooklyn, NY 10036, United States",
+        "icon": "https://i.ibb.co/k2kyxrk/marker.png",
+        "bgClass": "bg-accent"
+    },
+    {
+        "name": "Contact Us",
+        "description": "+000 123 456789",
+        "icon": "https://i.ibb.co/rGd5dS2/phone.png",
+        "bgClass": "bg-gradient"
+    }
+]
