@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Fluoride Treatment",
+        "description": "Fluoride varnish can be applied to both baby teeth and adult teeth by a dentist.",
+        "img": "https://i.ibb.co/t4Q6pyz/fluoride.png"
+    },
+    {
+        "name": "Cavity Filling",
+        "description": "Cavity filling the procedure, aftercare and long lasting",
+        "img": "https://i.ibb.co/xqWfmDv/cavity.png"
+    },
+    {
+        "name": "Teeth Whitening",
+        "description": "Heat and cold sensitivity could develop after teeth whitening. However, this only last for a few days in most people.",
+        "img": "https://i.ibb.co/4p7KVm8/whitening.png"
+    }
+]
