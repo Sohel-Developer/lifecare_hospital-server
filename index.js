@@ -19,6 +19,8 @@ const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology:
 async function run() {
     try {
         const servicesCollections = client.db("lifeCareInformation").collection("services");
+        const hospitalInfoCollections = client.db("lifeCareInformation").collection("hospitalInfo");
+        const appointmentServicesCollections = client.db("lifeCareInformation").collection("appointmentServices");
 
         /* Banner Info Card Get */
         app.get('/services', async (req, res) => {
@@ -28,14 +30,23 @@ async function run() {
             res.send(data)
         })
 
-
         /* Banner Info Card Get */
-        app.get('/se', async (req, res) => {
+        app.get('/hospitalinfo', async (req, res) => {
             const query = {}
-            const result = bannerInfoCollections.find(query);
+            const result = hospitalInfoCollections.find(query);
             const data = await result.toArray()
             res.send(data)
         })
+
+        /* Banner Info Card Get */
+        app.get('/appoinments', async (req, res) => {
+            const query = {}
+            const result = appointmentServicesCollections.find(query);
+            const data = await result.toArray()
+            res.send(data)
+        })
+
+
 
 
 
